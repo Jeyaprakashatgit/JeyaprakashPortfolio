@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JP Liftz Fitness | Jeyaprakash Murugan - Natural Bodybuilding & Physique Coach</title>
+  <meta name="description" content="JP Liftz Fitness - Elite 1-on-1 Physique Transformation Coaching for IT Professionals and Fitness Enthusiasts by Jeyaprakash Murugan, Chennai, India.">
+
+  <!-- Typography & Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Montserrat:wght@400;500;600;700;800&family=Oswald:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- External Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="site-header">
+    <div class="container nav-wrapper">
+      
+      <a href="#home" class="brand-logo" aria-label="JP Liftz Fitness">
+        <div class="brand-avatar">JP</div>
+        <div class="brand-titles">
+          <span class="brand-name">JP LIFTZ<span>.</span></span>
+          <span class="brand-tagline">Fitness &amp; Prep</span>
+        </div>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Primary Navigation">
+        <a href="#home" class="nav-link active" data-section="home">Home</a>
+        <a href="#certification" class="nav-link" data-section="certification">Certification</a>
+        <a href="#testimonials" class="nav-link" data-section="testimonials">Testimonial</a>
+        <a href="#get-in-touch" class="nav-link" data-section="get-in-touch">Get in Touch</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="#get-in-touch" class="btn-header-cta">Consultation</a>
+        <button id="menu-toggle" class="mobile-menu-btn" aria-label="Toggle navigation menu" aria-expanded="false">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round">
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div id="mobile-nav" class="mobile-nav-panel">
+    <a href="#home" class="mobile-nav-link active">Home</a>
+    <a href="#certification" class="mobile-nav-link">Certification</a>
+    <a href="#testimonials" class="mobile-nav-link">Testimonial</a>
+    <a href="#get-in-touch" class="mobile-nav-link">Get in Touch</a>
+  </div>
+
+  <main>
+    <!-- SECTION 1: HOME (HERO) -->
+    <section id="home" class="hero-section bg-grid">
+      <div class="container">
+        
+        <div class="hero-grid">
+          
+          <div class="hero-content">
+            
+            <div class="pill-badge">
+              <span class="pill-dot"></span>
+              <span class="pill-text">Transform your Body = Improve your Life &amp; Performance</span>
+            </div>
+
+            <h1 class="hero-headline">
+              I turn IT professionals into their <span class="highlight">best shape.</span>
+            </h1>
+
+            <p class="hero-bio-lead">
+              I'm <strong>Jeyaprakash</strong> — 7 years of lifting experience, 3 years in the IT industry, and a passionate natural bodybuilder who has competed in and won multiple competitions.
+            </p>
+
+            <p class="hero-bio-sub">
+              I've lived the long hours and desk-bound days, so I know exactly what it takes to build a physique around a demanding job, not in spite of it. This isn't just another diet or workout plan. I take time to understand your lifestyle, your working hours, your pain points, and how much time you can realistically give to training — then we build from there.
+            </p>
+
+            <div class="hero-cta-group">
+              <a href="#get-in-touch" class="btn-primary">
+                Start your transformation &rarr;
+              </a>
+              <a href="#certification" class="btn-secondary">
+                See my credentials
+              </a>
+            </div>
+
+            <div class="hero-stats">
+              <div class="stat-box">
+                <span class="stat-number">7+</span>
+                <span class="stat-label">Years Lifting</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-number red">3 Yrs</span>
+                <span class="stat-label">IT Industry</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-number">Multi</span>
+                <span class="stat-label">Show Winner</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-number red">100%</span>
+                <span class="stat-label">Natural Drug-Free</span>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="hero-photo-container">
+            <div class="hero-photo-backdrop"></div>
+            <div class="hero-photo-card">
+              
+              <div class="hero-photo-frame" id="hero-frame">
+                
+                <img 
+                  id="coach-hero-img" 
+                  src="images/Jp%20portfolio.jpg" 
+                  alt="Jeyaprakash Murugan - Natural Bodybuilder and Physique Coach"
+                  onerror="handleHeroImageFallback(this)"
+                />
+
+                <div id="hero-fallback-ui" class="photo-placeholder">
+                  <div class="placeholder-dumbbell-icon">🏋️</div>
+                  <strong class="placeholder-title">Jeyaprakash Murugan</strong>
+                  <p class="placeholder-sub">Natural Bodybuilder &bull; Stage Number #23</p>
+                  <p class="placeholder-hint">[ Save 'Jp-portfolio.jpg' inside the images folder ]</p>
+                </div>
+
+      ]
+
+              </div>
+
+
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- WHAT'S INCLUDED SECTION -->
+    <section class="included-section">
+      <div class="container">
+        
+        <div class="section-eyebrow">
+          <span class="eyebrow-line"></span>
+          <span class="eyebrow-text">1-on-1 Coaching Blueprint</span>
+        </div>
+        <h2 class="section-title">What's included in the coaching</h2>
+        <p class="section-desc">
+          Engineered for real schedules, high-workload quarters, and genuine lifestyle sustainability — no cookie-cutter PDFs.
+        </p>
+
+        <div class="included-grid">
+
+          <div class="feature-card">
+            <div>
+              <div class="feature-icon-box">💬</div>
+              <h3 class="feature-title">24/7 WhatsApp Support</h3>
+              <p class="feature-text">
+                Direct, priority access to your coach. Never feel stuck on cafeteria food choices, late-night cravings, or emergency schedule changes.
+              </p>
+            </div>
+            <div class="feature-footer-tag">Instant Communication</div>
+          </div>
+
+          <div class="feature-card">
+            <div>
+              <div class="feature-icon-box">📞</div>
+              <h3 class="feature-title">Doubt Clarification Call &amp; WhatsApp</h3>
+              <p class="feature-text">
+                Get total clarity whenever questions arise regarding training volume, recovery, fatigue levels, and macronutrient targets.
+              </p>
+            </div>
+            <div class="feature-footer-tag">Zero Confusion</div>
+          </div>
+
+          <div class="feature-card">
+            <div>
+              <div class="feature-icon-box">🏋️</div>
+              <h3 class="feature-title">Workout Form Correction</h3>
+              <p class="feature-text">
+                Send workout videos of compound lifts and accessories. Receive cue breakdowns to lift injury-free and optimize muscle hypertrophy.
+              </p>
+            </div>
+            <div class="feature-footer-tag">Biomechanics &amp; Safety</div>
+          </div>
+
+          <div class="feature-card">
+            <div>
+              <div class="feature-icon-box">🎯</div>
+              <h3 class="feature-title">Daily Accountability Through WhatsApp</h3>
+              <p class="feature-text">
+                Consistent daily tracking ensures your nutrition targets, water intake, daily steps, and workout sessions happen without friction.
+              </p>
+            </div>
+            <div class="feature-footer-tag">Habit Discipline</div>
+          </div>
+
+          <div class="feature-card">
+            <div>
+              <div class="feature-icon-box">📊</div>
+              <h3 class="feature-title">Weekly Check-Ins &amp; Plan Updates</h3>
+              <p class="feature-text">
+                Detailed weekly assessments of scale weight trends, progress photos, and gym strength metrics with proactive adjustments to calories and training.
+              </p>
+            </div>
+            <div class="feature-footer-tag">Data-Driven Calibration</div>
+          </div>
+
+          <div class="feature-card">
+            <div>
+              <div class="feature-icon-box">📝</div>
+              <h3 class="feature-title">Curated Lifestyle Plan</h3>
+              <p class="feature-text">
+                Custom workout split designed specifically around your desk job posture, weekly hours, travel obligations, and dietary preferences.
+              </p>
+            </div>
+            <div class="feature-footer-tag">Tailored Architecture</div>
+          </div>
+
+          <div class="premium-feature-card">
+            <div>
+              <div class="premium-badge-tag">★ Premium Plan Only</div>
+              <h3 class="premium-title">Daily Call Support and Guidance</h3>
+              <p class="premium-desc">
+                High-touch, daily 1-on-1 voice check-ins for executives and individuals requiring real-time strategy management during intense crunch periods, travel logistics, and peak transformation phases.
+              </p>
+            </div>
+            <a href="#get-in-touch" class="btn-premium-cta">Inquire for Premium &rarr;</a>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 2: CERTIFICATION -->
+    <section id="certification" class="cert-section">
+      <div class="container">
+        
+        <div class="section-eyebrow">
+          <span class="eyebrow-line"></span>
+          <span class="eyebrow-text">Science &amp; Credentials</span>
+        </div>
+        <h2 class="section-title">Certified physique transformation coach.</h2>
+        <p class="section-desc">
+          Official Master Trainer accreditations issued by Team Boss Fitness Academy / BICP (Boss International Certification Program). Completed with Credit in 2023. Click any certificate to enlarge.
+        </p>
+
+        <div class="cert-grid">
+
+          <!-- Certificate 1: Level 1 -->
+          <div class="cert-card-outer">
+            <div class="cert-visual-trigger" onclick="openLightbox('cert1')" role="button" tabindex="0" title="Click to enlarge Level 1 Certificate">
+              
+              <img 
+                id="cert1-img" 
+                src="images/Jeyaprakash%20Murugan-L1.jpg" 
+                alt="Level 1 Certificate - Jeyaprakash Murugan" 
+                class="cert-preview-img" 
+                onload="handleCertLoad(1)"
+                onerror="handleCertError(1)"
+              />
+
+              <div class="cert-plate" id="cert1-display-plate">
+                <div>
+                  <div class="cert-seal-top">
+                    <div class="cert-seal-inner">BOSS</div>
+                  </div>
+                  <h4 class="cert-academy-title">TEAM BOSS FITNESS ACADEMY</h4>
+                  <div class="cert-bicp-title">B I C P</div>
+                  <div class="cert-subtitle">BOSS INTERNATIONAL CERTIFICATION PROGRAM</div>
+                  <h3 class="cert-program-name">
+                    ADVANCED PHYSIQUE TRANSFORMATION<br>MASTER TRAINER LEVEL 1
+                  </h3>
+                  <div class="cert-certify-line">This Document is to Certify that</div>
+                </div>
+
+                <div>
+                  <div class="cert-recipient-name">JEYAPRAKASH MURUGAN</div>
+                  <div class="cert-statement">
+                    Has successfully completed the above course,<br>
+                    conducted in <strong>SEPTEMBER - NOVEMBER, 2023</strong> with:
+                  </div>
+                  <div class="cert-credit-bold">CREDIT.</div>
+                </div>
+
+                <div class="cert-lower-row">
+                  <div class="cert-badge-gold">
+                    <div class="cert-badge-gold-inner">
+                      <span>CERTIFIED</span>
+                      <strong class="cert-seal-cert-personal">PERSONAL</strong>
+                      <span>TRAINER</span>
+                      <span class="cert-seal-cert-rank">INDIA'S NO.1</span>
+                    </div>
+                  </div>
+
+                  <div class="cert-sig-block">
+                    <div class="cert-sig-render">Harry Sandhu</div>
+                    <div class="cert-sig-line"></div>
+                    <div class="cert-director-name">HARRY SANDHU</div>
+                    <div class="cert-director-role">DIRECTOR &bull; TEAM BOSS FITNESS ACADEMY</div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="cert-card-meta">
+              <h3 class="cert-card-title">Master Trainer Level 1</h3>
+              <div class="cert-card-id">FILE: <code>images/Jeyaprakash-Murugan-L1.jpg</code> &bull; Credit (2023)</div>
+              <p class="cert-card-summary">
+                Core exercise science, progressive overload mechanics, kinetic chain assessments, and baseline metabolic programming.
+              </p>
+            </div>
+          </div>
+
+          <!-- Certificate 2: Level 2 -->
+          <div class="cert-card-outer">
+            <div class="cert-visual-trigger" onclick="openLightbox('cert2')" role="button" tabindex="0" title="Click to enlarge Level 2 Certificate">
+              
+              <img 
+                id="cert2-img" 
+                src="images/Jeyaprakash%20MuruganL2.jpg" 
+                alt="Level 2 Certificate - Jeyaprakash Murugan" 
+                class="cert-preview-img" 
+                onload="handleCertLoad(2)"
+                onerror="handleCertError(2)"
+              />
+
+              <div class="cert-plate" id="cert2-display-plate">
+                <div>
+                  <div class="cert-seal-top">
+                    <div class="cert-seal-inner">BOSS</div>
+                  </div>
+                  <h4 class="cert-academy-title">TEAM BOSS FITNESS ACADEMY</h4>
+                  <div class="cert-bicp-title">B I C P</div>
+                  <div class="cert-subtitle">BOSS INTERNATIONAL CERTIFICATION PROGRAM</div>
+                  <h3 class="cert-program-name">
+                    ADVANCED PHYSIQUE TRANSFORMATION<br>MASTER TRAINER LEVEL 2
+                  </h3>
+                  <div class="cert-certify-line">This Document is to Certify that</div>
+                </div>
+
+                <div>
+                  <div class="cert-recipient-name">JEYAPRAKASH MURUGAN</div>
+                  <div class="cert-statement">
+                    Has successfully completed the above course,<br>
+                    conducted in <strong>SEPTEMBER - NOVEMBER, 2023</strong> with:
+                  </div>
+                  <div class="cert-credit-bold">CREDIT.</div>
+                </div>
+
+                <div class="cert-lower-row">
+                  <div class="cert-badge-gold">
+                    <div class="cert-badge-gold-inner">
+                      <span>CERTIFIED</span>
+                      <strong class="cert-seal-cert-personal">PERSONAL</strong>
+                      <span>TRAINER</span>
+                      <span class="cert-seal-cert-rank">INDIA'S NO.1</span>
+                    </div>
+                  </div>
+
+                  <div class="cert-sig-block">
+                    <div class="cert-sig-render">Harry Sandhu</div>
+                    <div class="cert-sig-line"></div>
+                    <div class="cert-director-name">HARRY SANDHU</div>
+                    <div class="cert-director-role">DIRECTOR &bull; TEAM BOSS FITNESS ACADEMY</div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="cert-card-meta">
+              <h3 class="cert-card-title">Master Trainer Level 2</h3>
+              <div class="cert-card-id">FILE: <code>images/Jeyaprakash-Murugan-L2.jpg</code> &bull; Credit (2023)</div>
+              <p class="cert-card-summary">
+                Advanced physique conditioning, peak week manipulation, contest dieting periodization, and plateau remediation.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="cert-bold-strip">
+          <div class="cert-bold-text">
+            Advanced Physique Transformation Master Trainer Level 1 &amp; Level 2.
+          </div>
+          <a href="#testimonials" class="cert-jump-link">
+            View Transformations &darr;
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 3: TESTIMONIALS -->
+    <section id="testimonials" class="testimonial-section">
+      <div class="container">
+        
+        <div class="section-eyebrow">
+          <span class="eyebrow-line"></span>
+          <span class="eyebrow-text">Results &amp; Case Studies</span>
+        </div>
+        <h2 class="section-title">Real transformations, real people.</h2>
+        <p class="section-desc">
+          Unfiltered results built through calculated nutrition, progressive overload, and accountability. Click on any comparison to view the enlarged image.
+        </p>
+
+        <div class="transformation-list">
+
+          <!-- 1. Santhosh -->
+          <div class="trans-block">
+            
+            <div class="trans-visual-col">
+              <div class="trans-visual-frame" onclick="openLightbox('santhosh')" title="Click to enlarge Santhosh transformation">
+                <img 
+                  id="santhosh-img" 
+                  src="images/Santhosh%20Transformation.png"
+                  alt="Santhosh Transformation: March 2023 to September 2023"
+                  onerror="handleTransFallback(this, 'santhosh-fallback')"
+                />
+                
+                <div id="santhosh-fallback" class="trans-canvas-fallback">
+                  <div class="trans-banner-head">
+                    <span>MARCH 2023</span>
+                    <span>SEPT 2023</span>
+                  </div>
+                  <div class="trans-banner-split">
+                    <div class="split-col">
+                      <strong class="text-dim">START</strong>
+                      <p class="text-muted-desc">Higher body fat baseline</p>
+                    </div>
+                    <div class="split-col shred">
+                      <strong class="stat-number red">CONTEST READY</strong>
+                      <p class="text-shred-desc">Shredded stage conditioning</p>
+                    </div>
+                  </div>
+                  <small class="fallback-caption">SANTHOSH &bull; 6-MONTH NATURAL COMPETITION PREP</small>
+                </div>
+
+                <div class="trans-overlay-ribbon">
+                  <span class="badge-date-red">March 2023 &rarr; Sept 2023</span>
+                  <span class="badge-pill-red">STAGE READY</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="trans-copy-col">
+              <div class="trans-client-tag">6-Month Stage Cut</div>
+              <h3 class="trans-client-name">Santhosh</h3>
+
+              <div class="trans-metrics-deck">
+                <div class="trans-metric-cell">
+                  <span class="metric-cell-label">Duration</span>
+                  <span class="metric-cell-value">6 Months</span>
+                </div>
+                <div class="trans-metric-cell">
+                  <span class="metric-cell-label">Condition</span>
+                  <span class="metric-cell-value highlight">Sub-10% BF</span>
+                </div>
+                <div class="trans-metric-cell">
+                  <span class="metric-cell-label">Outcome</span>
+                  <span class="metric-cell-value">Stage Competitor</span>
+                </div>
+              </div>
+
+              <p class="trans-client-story">
+                Santhosh started with a higher body fat percentage in <strong>March 2023</strong> and executed a dialed-in natural contest prep to step on stage in <strong>September 2023</strong>. By managing energy balance and training volume, he brought out razor-sharp abdominal cuts and stage hardness without sacrificing muscle fullness.
+              </p>
+
+              <div class="trans-coach-callout">
+                "Lost significant body fat, refined pose presentation, and stepped on the natural bodybuilding platform."
+              </div>
+            </div>
+
+          </div>
+
+          <!-- 2. Kodeeswaran -->
+          <div class="trans-block reverse">
+            
+            <div class="trans-visual-col">
+              <div class="trans-visual-frame" onclick="openLightbox('kodeeswaran')" title="Click to enlarge Kodeeswaran transformation">
+                <img 
+                  id="kodeeswaran-img" 
+                  src="images/Kodeeswaran%20Transformation.png"
+                  alt="Kodeeswaran Transformation: Oct 2024 at 83 kg to July 2025 at 63.20 kg"
+                  onerror="handleTransFallback(this, 'kodeeswaran-fallback')"
+                />
+
+                <div id="kodeeswaran-fallback" class="trans-canvas-fallback">
+                  <div class="trans-banner-head">
+                    <span class="badge-date-green">OCT 2024 - 83KG</span>
+                    <span class="badge-date-green">JULY 2025 - 63.20KG</span>
+                  </div>
+                  <div class="trans-banner-split">
+                    <div class="split-col">
+                      <strong class="text-dim">83 KG</strong>
+                      <p class="text-muted-desc">Starting weight &bull; Oct 2024</p>
+                    </div>
+                    <div class="split-col shred">
+                      <strong class="stat-number green">63.20 KG</strong>
+                      <p class="text-green-desc">-19.80 kg fat loss &bull; V-Taper</p>
+                    </div>
+                  </div>
+                  <small class="fallback-caption">KODEESWARAN &bull; COACHED BY JEYAPRAKASH_17</small>
+                </div>
+
+                <div class="trans-overlay-ribbon">
+                  <span class="badge-date-green">83 Kg &rarr; 63.20 Kg</span>
+                  <span class="badge-pill-green">-19.80 KG</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="trans-copy-col">
+              <div class="trans-client-tag">Full Body Recomposition</div>
+              <h3 class="trans-client-name">Kodeeswaran</h3>
+
+              <div class="trans-metrics-deck">
+                <div class="trans-metric-cell">
+                  <span class="metric-cell-label">Starting Weight</span>
+                  <span class="metric-cell-value">83.00 Kg</span>
+                </div>
+                <div class="trans-metric-cell">
+                  <span class="metric-cell-label">Current Weight</span>
+                  <span class="metric-cell-value">63.20 Kg</span>
+                </div>
+                <div class="trans-metric-cell">
+                  <span class="metric-cell-label">Net Lost</span>
+                  <span class="metric-cell-value highlight">-19.80 Kg</span>
+                </div>
+              </div>
+
+              <p class="trans-client-story">
+                Started at <strong>83 kg in October 2024</strong>. Over the course of 10 months of structured macro periodization and progressive overload, Kodeeswaran dropped down to <strong>63.20 kg in July 2025</strong>. He wiped out nearly 20 kilograms of fat, sculpted a tapered waistline, and walked onto the bodybuilding competition stage with total poise.
+              </p>
+
+              <div class="trans-coach-callout">
+                "83 kg down to 63.25 kg in 10 months with full competition conditioning."
+              </div>
+            </div>
+
+          </div>
+
+          <!-- 3. Coach Jeyaprakash's Transformation -->
+          <div class="trans-block">
+            
+            <div class="trans-visual-col">
+              <div class="trans-dual-frame" onclick="openLightbox('coach')" title="Click to enlarge Coach transformation">
+                <div class="trans-half-photo">
+                  <span class="photo-phase-tag">BEFORE</span>
+                  <img 
+                    id="coach-before-img" 
+                    src="images/Jp%20before.jpeg" 
+                    alt="Coach Jeyaprakash - Desk Job Baseline"
+                    onerror="handleTransFallback(this, 'coach-fallback')"
+                  />
+                </div>
+                <div class="trans-half-photo">
+                  <span class="photo-phase-tag highlight">AFTER</span>
+                  <img 
+                    id="coach-after-img" 
+                    src="images/Jp%20after.jpeg" 
+                    alt="Coach Jeyaprakash - Shredded Conditioning"
+                    onerror="handleTransFallback(this, 'coach-fallback')"
+                  />
+                </div>
+
+                <div id="coach-fallback" class="trans-canvas-fallback fallback-full-overlay">
+                  <div class="trans-banner-head">
+                    <span class="text-light">IT CAREER</span>
+                    <span class="stat-number red">STAGE CHAMPION</span>
+                  </div>
+                  <div class="trans-banner-split">
+                    <div class="split-col">
+                      <strong class="text-dim">3 YEARS IT</strong>
+                      <p class="text-muted-desc">Desk job &bull; Mid shifts</p>
+                    </div>
+                    <div class="split-col shred">
+                      <strong class="stat-number red">SHREDDED</strong>
+                      <p class="text-shred-desc">Natural Multi-Winner</p>
+                    </div>
+                  </div>
+                  <small class="fallback-caption">JEYAPRAKASH MURUGAN &bull; 7 YRS LIFTING &bull; COACH</small>
+                </div>
+
+                <div class="trans-overlay-ribbon">
+                  <span class="badge-date-gold">Jeyaprakash &bull; Recomp</span>
+                  <span class="badge-pill-red">PROVEN</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="trans-copy-col">
+              <div class="trans-client-tag">Proof Of Concept</div>
+              <h3 class="trans-client-name">My Own Transformation</h3>
+
+              <div class="trans-metrics-deck">
+                <div class="trans-metric-cell">
+                  <span class="metric-cell-label">Lifting Exp.</span>
+                  <span class="metric-cell-value">7 Years</span>
+                </div>
+                <div class="trans-metric-cell">
+                  <span class="metric-cell-label">IT Reality</span>
+                  <span class="metric-cell-value highlight">Mid-Shift IT</span>
+                </div>
+                <div class="trans-metric-cell">
+                  <span class="metric-cell-label">Competitions</span>
+                  <span class="metric-cell-value">Multi-Winner</span>
+                </div>
+              </div>
+
+              <p class="trans-client-story">
+                Built and maintained while working a demanding mid-shift, high-involvement IT career in Chennai. I don't give you theoretical workouts designed for people who have 3 hours a day to spend at the gym. Everything I coach has been stress-tested across long sprint deliverables, erratic sleep schedules, and desk immobility.
+              </p>
+
+              <div class="trans-coach-callout">
+                "Built around the reality of a desk job and unpredictable schedule — because I've lived it myself."
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="trans-center-cta">
+          <a href="#get-in-touch" class="btn-primary">
+            Get in touch to start your transformation journey &rarr;
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 4: GET IN TOUCH -->
+    <section id="get-in-touch" class="contact-section">
+      <div class="container">
+        
+        <div class="contact-grid">
+          
+          <div class="contact-main">
+            <div class="section-eyebrow">
+              <span class="eyebrow-line"></span>
+              <span class="eyebrow-text">Direct Consultation</span>
+            </div>
+
+            <h2 class="section-title">
+              Let's build <span>your plan.</span>
+            </h2>
+
+            <p class="section-desc">
+              Fill out the intake form describing your goals, routine, and starting point. I personally review every single submission and will get back to you with an honest breakdown of your roadmap.
+            </p>
+
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSffJoVWcy753lJVKkBepSHKXCTcYJEXHujsXLVNRhyuUwtD2Q/viewform?usp=sharing&ouid=116286592979703624971" target="_blank" rel="noopener noreferrer" class="btn-form-cta">
+              <span>Fill out the form</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                <polyline points="15 3 21 3 21 9"></polyline>
+                <line x1="10" y1="14" x2="21" y2="3"></line>
+              </svg>
+            </a>
+
+            <div class="onboarding-steps">
+              <div class="onboarding-step-box">
+                <span class="step-number">01. Intake Form</span>
+                <span class="step-text">Share your work timings, diet constraints, and lifting background.</span>
+              </div>
+              <div class="onboarding-step-box">
+                <span class="step-number">02. Strategy Design</span>
+                <span class="step-text">Receive a tailored split and calorie target made for your schedule.</span>
+              </div>
+              <div class="onboarding-step-box">
+                <span class="step-number">03. WhatsApp Kickoff</span>
+                <span class="step-text">Begin daily check-ins and direct form corrections on WhatsApp.</span>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="contact-card-sidebar">
+            
+            <div class="contact-detail-row">
+              <div class="contact-icon-bubble">📍</div>
+              <div class="contact-row-info">
+                <h4>Base Location</h4>
+                <p>Chennai, Tamil Nadu, India</p>
+                <small>Coaching IT professionals locally and across global time zones.</small>
+              </div>
+            </div>
+
+            <div class="contact-detail-row">
+              <div class="contact-icon-bubble green">📱</div>
+              <div class="contact-row-info">
+                <h4>Client Communication</h4>
+                <p>24/7 WhatsApp Support</p>
+                <small>Once onboarded, you have around-the-clock priority access directly with Jeyaprakash for queries and form correction.</small>
+              </div>
+            </div>
+
+            <div class="contact-detail-row">
+              <div class="contact-icon-bubble">🛡️</div>
+              <div class="contact-row-info">
+                <h4>Natural Bodybuilding Standard</h4>
+                <p>100% Drug-Free Coaching</p>
+                <small>Built strictly around health, natural performance, and longevity.</small>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <div>
+        <strong class="footer-brand-title">JP LIFTZ<span class="stat-number red">.</span></strong>
+        <span class="footer-separator">|</span>
+        <span>Jeyaprakash Murugan &bull; Chennai, India</span>
+      </div>
+
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#certification">Certification</a>
+        <a href="#testimonials">Testimonial</a>
+        <a href="#get-in-touch">Get In Touch</a>
+      </div>
+
+      <div>
+        &copy; <span id="year-label"></span> JP Liftz Fitness. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox Modal -->
+  <div id="lightbox" class="lightbox-backdrop" onclick="closeLightbox(event)">
+    <div class="lightbox-panel" onclick="event.stopPropagation()">
+      <div class="lightbox-head">
+        <h3 id="lightbox-heading" class="lightbox-title">Document Inspection</h3>
+        <button class="lightbox-close-btn" onclick="closeLightbox()">&times;</button>
+      </div>
+      <div class="lightbox-content-box" id="lightbox-container"></div>
+    </div>
+  </div>
+
+  <!-- External Script -->
+  <script src="script.js"></script>
+</body>
+</html>
